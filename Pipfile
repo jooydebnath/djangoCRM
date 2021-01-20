@@ -7,6 +7,10 @@ name = "pypi"
 django = "*"
 django-filter = "*"
 pillow = "*"
+django-storages = "*"
+boto3 = "*"
+gunicorn = "*"
+whitenoise = "*"
 
 [dev-packages]
 

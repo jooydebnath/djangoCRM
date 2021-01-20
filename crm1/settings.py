@@ -25,9 +25,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '$ss+q3qjjv&x8p^m345^yjkv2-5-%)71d^#g%&nay6trka$rpq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['192.168.0.116', '127.0.0.1']
+ALLOWED_HOSTS = ['young-tundra-14914.herokuapp.com', '192.168.0.116', '127.0.0.1']
 
 
 # Application definition
@@ -87,6 +87,18 @@ DATABASES = {
     }
 }
 
+
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'joy',
+#         'USER': 'joy',
+#         'PASSWORD': 'Debnath0011',
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
